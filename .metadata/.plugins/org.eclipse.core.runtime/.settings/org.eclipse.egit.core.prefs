@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\LMR_DARMA_WorkSpace\\Gateway-DARMA-PK1\\Gateway-DARMA-PK1\\.git;D\:\\LMR_DARMA_WorkSpace\\cp api\\.git;D\:\\LMR_DARMA_WorkSpace\\DARMA_LMR\\.git;D\:\\LMR_DARMA_WorkSpace\\Gateway_API\\.git;
+GitRepositoriesView.GitDirectories.relative=Gateway-DARMA-PK1\\Gateway-DARMA-PK1\\.git;cp api\\.git;DARMA_LMR\\.git;Gateway_API\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

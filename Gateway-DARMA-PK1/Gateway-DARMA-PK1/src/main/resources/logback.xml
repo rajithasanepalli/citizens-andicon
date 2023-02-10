@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+	<property resource="application.properties" />
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>../../applicationLogs/LPGateway.log</file>
+		<encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>../../applicationLogs/LPGateway.%d{yyyyMMdd}_%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				or whenever the file size reaches 100MB
+				<maxFileSize>100MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<charset>utf-8</charset>
+			<Pattern>%d %-5level [%thread] %logger{0}: %msg%n</Pattern>
+		</encoder>
+	</appender>
+
+	<appender name="STASH"
+		class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+		<!-- remoteHost and port are optional (default values shown) -->
+		<remoteHost>127.0.0.1</remoteHost>
+		<port>4560</port>		
+		<!-- encoder is required -->
+		<encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+	</appender>
+
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+	</appender>
+
+	<appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+		<!-- <queueSize>512</queueSize> -->
+		<appender-ref ref="STASH" />
+	</appender>
+
+	<logger name="com.mouritech.lp.cppc.gateway" level="ALL" />
+
+
+	<logger name="org.springframework" level="WARN" />
+	<logger name="org.springframework.web" level="DEBUG" />
+	<logger name="org.springframework.security" level="WARN" />
+	<logger name="org.springframework.cache" level="DEBUG" />
+	<logger name="org.springframework.data" level="DEBUG" />
+	<logger name="org.thymeleaf" level="OFF" />
+	<logger name="org.springframework.web.client.RestTemplate" level="OFF"/>
+
+	<contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+		<resetJUL>true</resetJUL>
+	</contextListener>
+
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+		<appender-ref ref="ASYNC" />
+	</root>
+
+</configuration>

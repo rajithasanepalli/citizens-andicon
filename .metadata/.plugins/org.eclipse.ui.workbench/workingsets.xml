@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647422705005_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=darma-lmr-persistence/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-persistence/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-persistence/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-commons/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-commons/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-commons/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cp-api-v1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cp-api-v1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cp-api-v1/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-exceptions/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-exceptions/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-logging/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-logging/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-logging/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-security/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-security/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647422705027_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=darma-lmr-persistence/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-persistence/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-commons/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cp-api-v1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cp-api-v1/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-exceptions/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-logging/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=darma-lmr-security/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647422745817_3" label="darma-lmr-base" name="darma-lmr-base">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/darma-lmr-logging" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DARMA_LMR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/darma-lmr-security" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/darma-lmr-commons" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/darma-lmr-exceptions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-api-v1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/darma-lmr-persistence" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647431224361_4" label="lp-cp-base" name="lp-cp-base">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-logging" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-persistence" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-commons" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-security" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-exceptions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cp-api" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647422709206_2" label="Window Working Set" name="Aggregate for window 1647422709206"/>
+</workingSetManager>
